@@ -18,7 +18,7 @@ namespace BakedInHeaven.API.Controllers
             _productsService = productsService;
         }
         [HttpGet]
-        public IEnumerable<ProductDto> GetAllProducts()
+        public IEnumerable<ProductDto> GetAlls()
         {
             
             return _productsService.GetAllProducts();
